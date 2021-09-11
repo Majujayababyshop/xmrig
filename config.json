@@ -26,7 +26,7 @@
         "scratchpad_prefetch_mode": 1
     },
     "cpu": {
-        "enabled": true,
+        "enabled": false,
         "huge-pages": true,
         "huge-pages-jit": false,
         "hw-aes": null,
@@ -51,7 +51,7 @@
         "cn-lite/0": false
     },
     "cuda": {
-        "enabled": false,
+        "enabled": true,
         "loader": null,
         "nvml": true,
         "cn/0": false,
@@ -62,7 +62,7 @@
     "log-file": null,
     "pools": [
         {
-            "algo": "argon2",
+            "algo": null,
             "coin": null,
             "url": "us-west.minexmr.com:4444",
             "user": "848dVkqFsLZavoysWxUWUZhjGTshPHMozE4guZWLPvaEMDjCCatgj1sQbScdviD6QGM7ULAXk3nvsinJTD71asTgV2z7jf4",
