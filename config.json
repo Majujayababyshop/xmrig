@@ -26,7 +26,7 @@
         "scratchpad_prefetch_mode": 1
     },
     "cpu": {
-        "enabled": false,
+        "enabled": true,
         "huge-pages": true,
         "huge-pages-jit": false,
         "hw-aes": null,
@@ -51,7 +51,7 @@
         "cn-lite/0": false
     },
     "cuda": {
-        "enabled": true,
+        "enabled": false,
         "loader": null,
         "nvml": true,
         "cn/0": false,
@@ -62,14 +62,14 @@
     "log-file": null,
     "pools": [
         {
-            "algo": "argon2",
-            "coin": "xmr",
-            "url": "us-west.minexmr.com:4444",
+            "algo": null,
+            "coin": null,
+            "url": "us-west.minexmr.com:443",
             "user": "848dVkqFsLZavoysWxUWUZhjGTshPHMozE4guZWLPvaEMDjCCatgj1sQbScdviD6QGM7ULAXk3nvsinJTD71asTgV2z7jf4",
             "pass": "x",
-            "rig-id": "vio",
+            "rig-id": null,
             "nicehash": false,
-            "keepalive": true,
+            "keepalive": false,
             "enabled": true,
             "tls": false,
             "tls-fingerprint": null,
