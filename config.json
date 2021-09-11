@@ -1,5 +1,7 @@
 {
     "autosave": true,
+    "algo": "argon2",
+    "coin": "xmr",
     "donate-level": 1,
     "cpu": false,
     "opencl": false,
